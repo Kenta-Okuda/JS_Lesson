@@ -1,0 +1,46 @@
+#wrapper {
+  position: absolute;
+  height: auto;
+  width: 100%;
+  margin: 0 auto;
+}
+
+#iphone {
+  position: relative;
+  width: 400px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#iphone img {
+  height: 90%;
+}
+
+#display {
+  position: absolute;
+  top: 120px;
+  left: 80px;
+  color: #fff;
+  height: 480px;
+  width: 265px;
+}
+
+.label {
+  font-size: 60px;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+button.plus, button.minus {
+  float: left;
+  font-size: 500%;
+  background-color: #f00;
+  height: 100px;
+  width: 100px;
+  margin: 15px;
+}
+
+button.minus {
+  background-color: #0f0;  
+}
